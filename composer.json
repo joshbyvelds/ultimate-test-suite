@@ -1,0 +1,16 @@
+{
+    "require-dev": {
+        "behat/behat": "^3.5",
+        "phpspec/phpspec": "^4.0",
+        "behat/mink": "^1.7"
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "autoload": {"psr-0": {"": "src"}},
+    "require": {
+        "dmore/chrome-mink-driver": "^2.6"
+    }
+}
