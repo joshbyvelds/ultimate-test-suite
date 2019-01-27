@@ -23,5 +23,7 @@
             "email": "joshbyvelds@users.noreply.github.com"
         }
     ],
-    "minimum-stability": "stable"
+    "require-dev": {
+        "leanphp/phpspec-code-coverage": "^4.2"
+    }
 }
