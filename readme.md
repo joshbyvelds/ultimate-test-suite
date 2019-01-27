@@ -1,6 +1,12 @@
 Ultimate Test Suite
 
-to run behat: .\"vendor/bin/behat"
+Note: on Windows you need surround your program paths in quotes Eg: .\"vendor/bin/behat"
+
+to run behat: ./behat
+
+Make make sure Selenium is running
+C:\Java Jars>java -jar selenium-server-standalone-3.141.59.jar
+
 
 to setup PHPSpec
 
