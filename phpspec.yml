@@ -1,0 +1,5 @@
+suites:
+  #...
+  default:
+    namespace: UltimateTest
+    src_path: production/php

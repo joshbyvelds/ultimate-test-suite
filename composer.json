@@ -11,6 +11,12 @@
         "integratedexperts/behat-screenshot": "^0.7.2"
     },
 
+    "autoload": {
+        "psr-0": {
+            "UltimateTest": "production/php"
+        }
+    },
+
     "authors": [
         {
             "name": "Josh Byvelds",

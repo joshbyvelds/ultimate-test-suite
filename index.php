@@ -2,6 +2,12 @@
 
 require_once 'vendor/autoload.php';
 
+use UltimateTest\Test;
+
+$test = new Test();
+echo $test->test() . "<br />";
+
+
 echo "Ultimate Test Suite"
 ?>
 
