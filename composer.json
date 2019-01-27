@@ -1,17 +1,21 @@
 {
-    "require-dev": {
-        "behat/behat": "^3.5",
-        "phpspec/phpspec": "^4.0",
-        "behat/mink": "^1.7",
-        "behat/mink-extension": "^2.3"
-    },
+    "name": "joshb/ultimate-test-suite",
+    "description": "A simple testing template for new PHP applications",
+    "type": "project",
 
-    "config": {
-        "bin-dir": "bin"
-    },
-
-    "autoload": {"psr-0": {"": "src"}},
     "require": {
-        "dmore/chrome-mink-driver": "^2.6"
-    }
+        "phpspec/nyan-formatters": "^2.0",
+        "behat/mink-extension": "^2.3",
+        "behat/mink-goutte-driver": "^1.2",
+        "behat/mink-selenium2-driver": "dev-master",
+        "integratedexperts/behat-screenshot": "^0.7.2"
+    },
+
+    "authors": [
+        {
+            "name": "Josh Byvelds",
+            "email": "joshbyvelds@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable"
 }
